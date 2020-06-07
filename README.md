@@ -43,7 +43,7 @@ Now we write the live image to the SD card in a way it is compatible with a Rasp
     apt install -y xorriso
     mkdir /sbin/lamponepi-installer; mv pi-boot /sbin/lamponepi-installer/
     
-    lamponepi-install.sh --iso /home/vagrant/live-image-arm64.hybrid.iso --device /dev/sdc
+    lamponepi-install.sh --iso /path/to/lampone-pi.iso --device /dev/sdc
 
 
 **\
